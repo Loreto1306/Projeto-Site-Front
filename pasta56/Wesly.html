@@ -5,33 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="shurtcut icon" href="img/">
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="annonymous"></script> <!-- chamando icons de um link web. -->
 <title>Loja</title>
 </head>
 <body>
     <header class="header">
         <a id="logo" href="#">logo</a>
         <nav class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Empresa</a></li>
-                <li><a href="#">Contato</a></li>
+            <button id="btnMob">Menu
+                <span id="hamburg"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Empresa">Empresa</a></li>
+                <li><a href="#Contato">Contato</a></li>
+                <div class="ball"></div>
             </ul>
             <input type="checkbox" class="checkbox" id="switch"/>
             <label class="label "for="switch">
-            <i class=""></i>
-            <i class=""></i>
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
             </label>
         </nav>
-
     </header>
     <section class="home">
-        <h1>Home</h1>
+        <h1 id="home">Home</h1>
     </section>
     <section class="empresa">
-        <h1>Empresa</h1>
+        <h1 id="empresa">Empresa</h1>
     </section>
     <section class="contato">
-        <h1>Contato</h1>
+        <h1 id="contato">Contato</h1>
     </section>
 
 
